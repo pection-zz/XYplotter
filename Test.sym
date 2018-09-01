@@ -1,0 +1,54 @@
+W0      @SCRATCH
+W0L     _RETURN_
+W0 -W1  @DIV3232B.P1
+W0 -W1  @READ_ROM_MEMORY.P2
+W1      @SCRATCH
+W1      @READ_PACKED_MEMORY.P1
+W1      @WRITE_PACKED_MEMORY.P2
+W2      @WRITE_PACKED_MEMORY.P1
+W2      @READ_PACKED_MEMORY.P2
+W2      @READ_ROM_MEMORY.P3
+W2 -W3  @DIV3232B.P4
+W3      @WRITE_PACKED_MEMORY.P1
+W3      @READ_ROM_MEMORY.P2
+W3      @READ_PACKED_MEMORY.P3
+630.6   C1OUT
+630.7   C2OUT
+802-803 main.a
+2780-27FF Stack
+
+ROM Allocation:
+000200  main
+000200  @cinit1
+00020C  @cinit2
+
+Project Directory:
+    C:\Embed\
+
+Project Files:
+    Test.c                                                  [14-Aug-17 14:58  CRC=00000000]
+    ..\Program Files (x86)\PICC\devices\24fj48ga002.h       [12-Nov-13 14:36  CRC=2B092578]
+    ..\Program Files (x86)\PICC\drivers\stdint.h            [30-Dec-08 09:01  CRC=9F7F640F]
+
+Source signature=6A07ED96
+
+Units:
+    Test (main)
+
+Compiler Settings:
+    Processor:      PIC24FJ48GA002
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: SIGNED: 8,16,32
+    Float,Double:   32,64
+
+Output Files:
+    Errors:      Test.err
+    INHX8:       Test.hex
+    Symbols:     Test.sym
+    List:        Test.lst
+    Debug/COFF:  Test.cof
+    Project:     Test.ccspjt
+    Call Tree:   Test.tre
+    Statistics:  Test.STA

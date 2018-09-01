@@ -1,0 +1,8 @@
+ÀÄPIC24_GPIO_01
+   ÀÄmain  0/182  Ram=5
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄHardwareInit  0/32  Ram=3
+      ÃÄBitTest  0/32  Ram=7
+      ÃÄBitTest  0/32  Ram=7
+      ÃÄBitTest  0/32  Ram=7
+      ÀÄBitTest  0/32  Ram=7
